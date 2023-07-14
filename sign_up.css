@@ -1,5 +1,11 @@
+#sign_up_box{
+    min-width:516px;
+}
+#header_text_form{
+    font-size: 50px;;
+}
 .text_form{
-    width:550px;
+    width:100%;
     border-radius: 100px;
     height: 75px;
 }
