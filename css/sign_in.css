@@ -1,0 +1,14 @@
+
+#color{
+    width: 100vw;
+    height: 100vh;
+    clip-path: ellipse(40vw 100vh at 10vw 0vh);
+}
+
+#city{
+    width: 30vw;
+    height: 50vh;
+    position: absolute;
+    top: 35vh;
+    left: 10vw;
+}
