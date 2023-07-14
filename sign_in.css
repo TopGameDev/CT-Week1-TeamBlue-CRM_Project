@@ -13,6 +13,12 @@
     left: 10vw;
 }
 
+#text_form{
+    width:550px;
+    border-radius: 100px;
+    height: 75px;
+}
+
 #username{
     padding-left: 75px;
     background: url("icons/person.svg") no-repeat left;
