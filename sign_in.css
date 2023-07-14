@@ -1,0 +1,45 @@
+
+#color{
+    width: 100vw;
+    height: 100vh;
+    clip-path: ellipse(40vw 100vh at 10vw 0vh);
+}
+
+#city{
+    width: 30vw;
+    height: 50vh;
+    position: absolute;
+    top: 35vh;
+    left: 10vw;
+}
+
+#username{
+    padding-left: 75px;
+    background: url("icons/person.svg") no-repeat left;
+    background-size:25px;
+    background-position-x: 30px;
+}
+#email{
+    padding-left: 75px;
+    background: url("icons/envelope.svg") no-repeat left;
+    background-size:25px;
+    background-position-x: 30px;
+}
+#password{
+    padding-left: 75px;
+    background: url("icons/lock-fill.svg") no-repeat left;
+    background-size:25px;
+    background-position-x: 30px;
+}
+.submit_form{
+    width:100%;
+    border-radius: 100px;
+    height: 50px;
+    font-size:25px;
+    padding: 0px;
+}
+.icon_form{
+    border-radius:50%;
+    height:50px;
+    padding:7px;
+}

@@ -4,10 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
-    <link rel="stylesheet" href="./css/sign_in.css">
+    <link rel="stylesheet" href="./sign_in.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./sign_up.css"> -->
+
 </head>
 <body>
-    <img src="./DoubleTapAssets/login/primary.png" id="color" alt="...">
-    <img src="./DoubleTapAssets/login/Group 15.png" id="city" alt="...">
+
+    <div class="container-fluid p-5">
+        <div class="row">
+            <div class="col-6 p-0">
+                <img src="./DoubleTapAssets/login/primary.png" id="color" alt="...">
+                <img src="./DoubleTapAssets/login/Group 15.png" id="city" alt="...">
+            </div>
+            <div class="col-4 pt-5">
+                <div class="container-fluid h-100">
+                    <div class="row"><h1 class="text-center display-5 fw-bold">Sign Up</h1></div>
+                    <div class="row">
+                        <form class="d-flex flex-column align-items-center">
+                            <div><input type="username" class="form-control text_form mt-5" id="username"></div>
+                            <div><input type="email" class="form-control text_form mt-5 box" id="email"></div>
+                            <div><input type="password" class="form-control text_form mt-5" id="password"></div>
+                            <div><input type="submit" class="form-control submit_form mt-5 bg-primary text-white px-5 fw-bold " id="submit" value="Sign Up"></div>
+                            <div><p class="fw-bold mt-4">Or Sign up with social platforms</p></div>
+                            <div class="d-flex justify-content-around w-75 mt-4">
+                                <!--Fix up weird colors-->
+                                <div><a href=""><img class="icon_form bg-black border" src="./icons/facebook.svg"></a></div>
+                                <div><a href=""><img class="icon_form border" src="./icons/twitter.svg"></a></div>
+                                <div><a href=""><img class="icon_form border" src="./icons/google.svg"></a></div>
+                                <div><a href=""><img class="icon_form bg-black border" src="./icons/linkedin.svg"></a></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
