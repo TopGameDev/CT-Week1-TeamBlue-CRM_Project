@@ -6,7 +6,7 @@
 }
 .text_form{
     width:100%;
-    border-radius: 100px;
+    border-radius: 100px !important;
     height: 75px;
 }
 #username{
