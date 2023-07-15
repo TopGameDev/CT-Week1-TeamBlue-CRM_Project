@@ -26,3 +26,17 @@
     border: 3px solid white;
     
 }
+
+.btn-bottom{
+    border: 2px solid black;
+}
+
+.btn-end{
+    border: none;
+    background-color: #7fd125;
+    color: white;
+}
+
+.btn-end-2{
+    color: #0851f8;
+}
