@@ -1,6 +1,6 @@
 .card{
     border: none;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 .card-img-top{
@@ -10,4 +10,19 @@
 
 .card-img-top2{
     width:40px;
+}
+
+.card-body{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.img-body{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.btn{
+    border: 3px solid white;
+    
 }
